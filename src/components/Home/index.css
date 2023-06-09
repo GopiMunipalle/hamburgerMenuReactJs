@@ -1,0 +1,17 @@
+/* Write your CSS here */
+.home-container {
+  padding: 0px;
+}
+.home-card {
+  padding: 0px;
+}
+@media screen and (max-width: 576px) {
+  .desktop-home {
+    display: none;
+  }
+}
+@media screen and (min-width: 576px) and (max-width: 2200px) {
+  .mobile-home {
+    display: none;
+  }
+}
